@@ -1,13 +1,19 @@
 import React, { Component } from "react";
 import "./App.css";
-import NavBar from "./components/Navbar";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import Aside from "./components/Aside";
+import Section from "./components/Section";
 
 class App extends Component {
   render() {
     return (
-      <>
-        <NavBar />
-      </>
+      <div className="main-content">
+        <Nav />
+        <Main />
+        <Aside />
+        <Section />
+      </div>
     );
   }
 }

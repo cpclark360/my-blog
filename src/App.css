@@ -23,6 +23,7 @@ nav {
   grid-area: nav;
   border: solid 1px black;
   grid-row: -4 / 1;
+  text-align: center;
 }
 
 section {
@@ -47,4 +48,5 @@ aside {
 
 header {
   border: solid 1px black;
+  margin: 30px 30px 30px 30px;
 }

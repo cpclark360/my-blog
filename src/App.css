@@ -20,9 +20,11 @@ body {
 /* Layout */
 nav {
   display: flex;
+  justify-content: space-between;
   grid-area: nav;
   border: solid 1px black;
   grid-row: -4 / 1;
+  text-align: center;
 }
 
 section {
@@ -46,5 +48,18 @@ aside {
 /* Nav Elements */
 
 header {
+  border: solid 1px black;
+  margin: 30px 30px 30px 30px;
+}
+
+.menu {
+  border: solid 1px black;
+}
+
+.search {
+  border: solid 1px black;
+}
+
+.log {
   border: solid 1px black;
 }

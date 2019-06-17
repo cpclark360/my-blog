@@ -7,8 +7,18 @@ class Nav extends Component {
     return (
       <nav>
         <header>
-          <span />
-          <span>Just Blog it</span>
+          <div className="menu">
+            <span />
+            <span>Just Blog it</span>
+          </div>
+
+          <div className="seach">
+            <form>search todos</form>
+          </div>
+
+          <div className="log">
+            <span>Log-in</span>
+          </div>
         </header>
       </nav>
     );

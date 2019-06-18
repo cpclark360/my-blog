@@ -6,20 +6,11 @@ class Nav extends Component {
   render() {
     return (
       <nav>
-        <header>
-          <div className="menu">
-            <span />
-            <span>Just Blog it</span>
-          </div>
-
-          <div className="seach">
-            <form>search todos</form>
-          </div>
-
-          <div className="log">
-            <span>Log-in</span>
-          </div>
-        </header>
+        <div className="wrapper">
+          <div className="box menu">Menu</div>
+          <div className="box search">Search</div>
+          <div className="box log">Log</div>
+        </div>
       </nav>
     );
   }

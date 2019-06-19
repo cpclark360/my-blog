@@ -19,7 +19,6 @@ body {
 }
 /* Layout */
 nav {
-  display: flex;
   grid-area: nav;
   border: solid 1px black;
   grid-row: -4 / 1;
@@ -46,7 +45,26 @@ aside {
 
 /* Nav Elements */
 
+<<<<<<< HEAD
 header {
   border: solid 1px black;
   margin: 30px 30px 30px 30px;
+=======
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+>>>>>>> Nav
 }

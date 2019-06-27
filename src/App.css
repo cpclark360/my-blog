@@ -58,6 +58,13 @@ aside {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  border: solid 1px black;
+  align-items: flex-end;
+  justify-content: start;
 }

@@ -4,7 +4,7 @@ import "../App.css";
 class Aside extends Component {
   state = {};
   render() {
-    return <aside>HELLO</aside>;
+    return <aside>ASIDE</aside>;
   }
 }
 

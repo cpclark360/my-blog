@@ -7,11 +7,13 @@ class Nav extends Component {
     return (
       <nav>
         <div className="wrapper">
-          <div className="box menu">
+          <div className="box menu" />
+          <div className="box">
             <div className="icons">icons</div>
           </div>
-          <div className="box search">Search</div>
-          <div className="box log">Log</div>
+          <div className="box log">
+            <input id="nav-search" type="search" placeholder="Search" />
+          </div>
         </div>
       </nav>
     );

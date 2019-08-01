@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Main from "./components/Main";
 import Aside from "./components/Aside";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Main />
         <Aside />
         <Section />
+        <Footer />
       </div>
     );
   }

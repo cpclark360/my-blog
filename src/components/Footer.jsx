@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "../App.css";
 
-class Section extends Component {
+class Footer extends Component {
   state = {};
   render() {
-    return <section>Section</section>;
+    return <footer>Footer</footer>;
   }
 }
 
-export default Section;
+export default Footer;

@@ -64,6 +64,7 @@ footer {
   border-radius: 0px;
   padding: 0px;
   font-size: 150%;
+<<<<<<< HEAD
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -73,6 +74,10 @@ footer {
   border: solid 1px black;
   align-items: flex-end;
   justify-content: start;
+=======
+  margin-top: 50px;
+  margin-bottom: 50px;
+>>>>>>> parent of b4d0d96... updated
 }
 
 .main-container {

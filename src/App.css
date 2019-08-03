@@ -10,19 +10,18 @@ body {
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 10fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-gap: 30px;
   grid-template-areas:
     "nav nav nav"
-    "aside main section"
-    "aside main footer";
+    "aside main section";
 }
 /* Layout */
 nav {
   grid-area: nav;
   border: solid 1px black;
-  grid-row: auto;
+  grid-row: -4 / 1;
 }
 
 section {
@@ -43,11 +42,6 @@ aside {
   grid-row: 2 / -1;
 }
 
-footer {
-  grid-area: footer;
-  border: solid 1px black;
-  height: 6rem;
-}
 /* Nav Elements */
 
 .wrapper {
@@ -61,12 +55,17 @@ footer {
 .box {
   background-color: #444;
   color: #fff;
-  border-radius: 0px;
-  padding: 0px;
+  border-radius: 5px;
+  padding: 20px;
   font-size: 150%;
+<<<<<<< HEAD
 <<<<<<< HEAD
   margin-top: 1%;
   margin-bottom: 1%;
+=======
+  margin-top: 0px;
+  margin-bottom: 10px;
+>>>>>>> parent of 893c456... added API modules
 }
 
 .icons {
@@ -78,9 +77,4 @@ footer {
   margin-top: 50px;
   margin-bottom: 50px;
 >>>>>>> parent of b4d0d96... updated
-}
-
-.main-container {
-  display: flex;
-  flex-direction: column-reverse;
 }

@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Main from "./components/Main";
 import Aside from "./components/Aside";
 import Section from "./components/Section";
+const _ = require("underscore");
 
 class App extends Component {
   render() {
